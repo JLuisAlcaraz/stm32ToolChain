@@ -96,7 +96,7 @@ int main(void)
   {
     HAL_GPIO_TogglePin(RED_GPIO_Port, RED_Pin);  //Esto es un comentario
     HAL_GPIO_TogglePin(GREEN_GPIO_Port, GREEN_Pin);
-    HAL_Delay(100);
+    HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
